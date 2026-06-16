@@ -65,37 +65,25 @@ const EducationSection: React.FC = () => {
     {
       degree: "Master of Science in Computer Engineering",
       institution: "Wright State University",
-      location: "Dayton, United States",
-      period: "Jan '24 — Jul '25",
-      gpa: "3.4",
+      location: "Dayton, Ohio, USA",
+      period: "Dec 2023 — Jul 2025",
+      gpa: "3.0 / 4.0",
       details: [
-        "Focused on software development, data structures, system architecture, and DevOps",
-        "Tools & Tech: C#, Python, Docker, AWS, REST APIs, Quantum Computing",
-        "Completed projects on microservices, cloud deployment, and API design, AI-Powered Shopping Assistant"
+        "Coursework: Machine Learning, Distributed Computing, Artificial Intelligence, Quantum Computing",
+        "Advanced Computer Networks, Advanced Software Engineering, Cloud Computing",
+        ".NET, Angular, Node.js — applied through real-world capstone projects"
       ]
     },
     {
-      degree: "Master of Computer Application",
+      degree: "Master of Computer Applications (Dual Degree)",
       institution: "Charotar University of Science & Technology",
       location: "Gujarat, India",
-      period: "Jul '19 — Aug '21",
-      gpa: "3.6",
+      period: "Jul 2016 — Jul 2021",
+      gpa: "4.0 / 4.0",
       details: [
-        "Specialized in .NET, full-stack development, Java, and SQL Server",
-        "Practical exposure to OOPs, Agile methodologies, and relational databases",
-        "Developed scalable web applications and system integration projects"
-      ]
-    },
-    {
-      degree: "Bachelor of Computer Application",
-      institution: "Charotar University of Science & Technology",
-      location: "Gujarat, India",
-      period: "Jun '16 — Aug '19",
-      gpa: "3.8",
-      details: [
-        "Gained strong foundations in Java, C++, OS, DBMS, and networking",
-        "Built cloud-based apps and IoT-integrated mini projects",
-        "Hands-on experience with project lifecycle from design to deployment"
+        "Dual degree combining BCA + MCA with perfect GPA",
+        "Coursework: Data Structures & Algorithms, Database Systems, Data Mining, Information Systems",
+        "Object Oriented Programming, Operating Systems, Software Engineering"
       ]
     }
   ];
@@ -128,25 +116,54 @@ const EducationSection: React.FC = () => {
         </div>
 
         <div className="mt-16">
-          <h3 className="text-2xl font-bold text-portfolio-navy mb-6 text-center">Certifications</h3>
-          <Card className="border-none shadow-lg hover:shadow-xl transition-all duration-300">
-            <div className="bg-gradient-to-r from-portfolio-blue to-blue-400 h-1"></div>
-            <CardContent className="p-6">
-              <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
-                <div className="flex items-center">
-                  <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+          <h3 className="text-2xl font-bold text-portfolio-navy mb-6 text-center">Certifications & Publications</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <Card className="border-none shadow-lg hover:shadow-xl transition-all duration-300">
+              <div className="bg-gradient-to-r from-portfolio-blue to-blue-400 h-1"></div>
+              <CardContent className="p-6">
+                <div className="flex items-start">
+                  <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
                     <Award className="h-6 w-6 text-portfolio-blue" />
                   </div>
                   <div>
                     <h4 className="text-lg font-bold">AWS Certified Cloud Practitioner</h4>
-                    <p className="text-portfolio-gray">Issued: April 2025 | Valid Until: April 2028</p>
-                    <p className="text-portfolio-gray">Credential ID: AWS04567361</p>
+                    <p className="text-portfolio-gray">Issued April 2025 · Valid until April 2028</p>
+                    <Badge className="bg-portfolio-blue mt-2 px-3 py-1">Active</Badge>
                   </div>
                 </div>
-                <Badge className="bg-portfolio-blue mt-2 md:mt-0 px-4 py-1 animate-pulse">Active</Badge>
-              </div>
-            </CardContent>
-          </Card>
+              </CardContent>
+            </Card>
+            <Card className="border-none shadow-lg hover:shadow-xl transition-all duration-300">
+              <div className="bg-gradient-to-r from-portfolio-blue to-blue-400 h-1"></div>
+              <CardContent className="p-6">
+                <div className="flex items-start">
+                  <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                    <Award className="h-6 w-6 text-portfolio-blue" />
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-bold">Deloitte Australia · Cyber Job Simulation</h4>
+                    <p className="text-portfolio-gray">Forage · Issued April 2025</p>
+                    <Badge className="bg-portfolio-blue mt-2 px-3 py-1">Completed</Badge>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+            <Card className="border-none shadow-lg hover:shadow-xl transition-all duration-300 md:col-span-2">
+              <div className="bg-gradient-to-r from-portfolio-blue to-blue-400 h-1"></div>
+              <CardContent className="p-6">
+                <div className="flex items-start">
+                  <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                    <GraduationCap className="h-6 w-6 text-portfolio-blue" />
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-bold">Research Publication</h4>
+                    <p className="text-portfolio-navy font-medium mt-1">Facial Expression Recognition: A Study and Its Counterparts</p>
+                    <p className="text-portfolio-gray text-sm">International Journal of Marketing and Technology · Vol. 13 Issue 02 · Feb 2023</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
         </div>
       </div>
     </section>

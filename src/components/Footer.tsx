@@ -9,8 +9,7 @@ const Footer: React.FC = () => {
           <div>
             <h2 className="text-2xl font-bold mb-4">Jankiben Parmar</h2>
             <p className="text-gray-300 max-w-lg">
-              MS in Computer Engineering student at Wright State University with experience in cloud computing, 
-              AI/ML, and full-stack development.
+              Software Engineer with 4+ years building scalable full-stack platforms with React, Node.js, Python, and AWS. AWS Certified Cloud Practitioner.
             </p>
           </div>
           
@@ -54,7 +53,7 @@ const Footer: React.FC = () => {
               </svg>
             </a>
             <a 
-              href="mailto:parmar.29@wright.edu" 
+              href="mailto:jankiparmar357@outlook.com" 
               className="text-gray-400 hover:text-white transition-colors"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
