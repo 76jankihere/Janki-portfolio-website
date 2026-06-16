@@ -115,82 +115,74 @@ const ProjectsSection: React.FC = () => {
   
   const projects = [
     {
-      title: "EzShopping: AI-Powered Shopping Assistant",
-      period: "Jan '25 — May '25",
+      title: "AI Chat Assistant",
+      period: "Jun '25 — Aug '25",
       description: [
-        "Built a shopping assistant app with Streamlit and Python for personalized recommendations",
-        "Designed REST APIs and ETL pipelines, reducing data processing time by 48%",
-        "Integrated chatbot using NLTK, spaCy, and Transformers for NLP-based interactions"
+        "Full-stack real-time chat app with React/TypeScript front-end and Node.js/Express backend",
+        "Implemented JWT auth, WebSockets, and REST APIs deployed on AWS",
+        "Practiced TDD with RSpec-style testing patterns for robust coverage"
       ],
-      technologies: ["Python", "Poetry", "Docker", "ngrok", "Streamlit", "REST API", "Transformer Models", "Pillow python library", "Ultralytics Yolo v11", "Material for Mkdocs", "MongoDB DB", "CICD pipelines"],
-      link: "https://rarnold97.github.io/ezshopping_site/",
+      technologies: ["React", "TypeScript", "Node.js", "Express", "WebSockets", "JWT", "REST APIs", "AWS", "TDD"],
+      link: "https://github.com/76jankihere",
       featured: true,
       icon: "star"
+    },
+    {
+      title: "EzShopping: AI Shopping Assistant",
+      period: "Jan '25 — May '25",
+      description: [
+        "Full-stack e-commerce platform with React frontend and FastAPI backend",
+        "Built scalable REST API endpoints for product-to-query matching using NLP",
+        "PostgreSQL-backed with documented system architecture and ETL pipelines"
+      ],
+      technologies: ["React", "FastAPI", "Python", "PostgreSQL", "REST APIs", "NLP", "Transformers", "Docker"],
+      link: "https://rarnold97.github.io/ezshopping_site/",
+      featured: true,
+      icon: "trending-up"
+    },
+    {
+      title: "Employee Management Portal",
+      period: "Jan '24 — Apr '24",
+      description: [
+        "Full-stack web application for employee onboarding and attendance management",
+        "Built with C#, ASP.NET Core MVC backend and Angular/TypeScript frontend",
+        "SQL Server backing with role-based access and reporting dashboards"
+      ],
+      technologies: ["C#", "ASP.NET Core MVC", "Angular", "TypeScript", "SQL Server"],
+      link: "https://github.com/76jankihere",
+      featured: true,
+      icon: "code"
     },
     {
       title: "Xperi: Augmented Reality EdTech App",
       period: "Jan '24 — Apr '24",
       description: [
-        "Developed interactive AR education platform with real-time 3D scene recognition",
+        "Interactive AR education platform with real-time 3D scene recognition",
         "Deployed object detection models on TPU, improving runtime by 30%"
       ],
-      technologies: ["AR", "TensorFlow Lite", "Scene Capturing", "AI Object Detection", "Real-time 3D", "TPU"],
+      technologies: ["AR", "TensorFlow Lite", "Scene Capturing", "AI Object Detection", "TPU"],
       link: "https://github.com/76jankihere/Distributed-Computing---Xperi",
-      icon: "trending-up"
-    },
-    {
-      title: "Industrial: E-Commerce Platform",
-      period: "Jan '21 — Apr '21",
-      description: [
-        "Created REST APIs and API Gateway authentication for an e-commerce platform",
-        "Enabled secure user flows and modular backend architecture"
-      ],
-      technologies: ["E-commerce", "Vue.js", "REST APIs", "Authentication", "API Gateway", "JWT", "OAuth2.0", "Microservices"],
-      link: "https://drive.google.com/file/d/1m4jsTjNNUlnjfpo9iaQTPIgQjaMmbYFO/view?usp=sharing",
-      featured: true,
-      icon: "code"
-    },
-    {
-      title: "IoT-Based Automatic Plant Watering System",
-      period: "Mar '19 — Apr '19",
-      description: [
-        "Built moisture-sensing IoT system with real-time dashboard using MongoDB",
-        "Automated irrigation logic cut water usage by 30%"
-      ],
-      technologies: ["IoT", "Arduino", "Python", "MongoDB", "Data Analytics", "Automation", "Raspberry Pi", "Sensors", "WebSockets"],
-      link: "https://drive.google.com/drive/folders/1AxZGV8P-rkRd7rBByjfUy-RPucBwtmzd?usp=sharing",
       icon: "trending-up"
     },
     {
       title: "Cloud-Powered Online Examination System",
       period: "Mar '18 — Apr '18",
       description: [
-        "Created a serverless exam platform using S3/Lambda with role-based access control",
+        "Serverless exam platform using AWS S3/Lambda with role-based access control",
         "Reduced system latency by 20% using event-driven cloud architecture"
       ],
-      technologies: ["Cloud", "AWS S3", "Lambda", "Automation", "RBAC", "Event-driven architecture", "DynamoDB", "API Gateway", "CloudFront"],
-      link: "https://drive.google.com/drive/folders/1AxZGV8P-rkRd7rBByjfUy-RPucBwtmzd?usp=sharing",
+      technologies: ["AWS S3", "Lambda", "DynamoDB", "API Gateway", "RBAC", "Event-driven"],
+      link: "#",
       icon: "award"
     },
     {
-      title: "AI-Enhanced Content Management System",
-      period: "Jun '23 — Aug '23",
+      title: "IoT Automatic Plant Watering System",
+      period: "Mar '19 — Apr '19",
       description: [
-        "Developed a CMS with AI-powered content suggestions and auto-tagging features",
-        "Implemented full-text search with Elasticsearch improving search speed by 75%"
+        "Moisture-sensing IoT system with real-time dashboard backed by MongoDB",
+        "Automated irrigation logic cut water usage by 30%"
       ],
-      technologies: ["React", "Node.js", "Elasticsearch", "NLP", "TensorFlow.js", "GraphQL", "PostgreSQL", "Headless CMS"],
-      link: "#",
-      icon: "code"
-    },
-    {
-      title: "Blockchain Supply Chain Tracker",
-      period: "Oct '22 — Dec '22",
-      description: [
-        "Built a transparent supply chain tracking system using blockchain technology",
-        "Integrated IoT sensors for real-time monitoring and immutable record-keeping"
-      ],
-      technologies: ["Ethereum", "Solidity", "Web3.js", "IoT Integration", "React", "Smart Contracts", "IPFS"],
+      technologies: ["IoT", "Arduino", "Python", "MongoDB", "Raspberry Pi", "WebSockets"],
       link: "#",
       icon: "trending-up"
     }

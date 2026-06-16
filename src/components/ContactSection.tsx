@@ -22,13 +22,13 @@ const ContactSection: React.FC = () => {
                 <Mail className="h-6 w-6 text-portfolio-blue mt-1" />
                 <div>
                   <h3 className="font-medium text-portfolio-navy">Email</h3>
-                  <a href="mailto:parmar.29@wright.edu" className="text-portfolio-gray hover:text-portfolio-blue transition-colors">
-                    parmar.29@wright.edu
+                  <a href="mailto:jankiparmar357@outlook.com" className="text-portfolio-gray hover:text-portfolio-blue transition-colors">
+                    jankiparmar357@outlook.com
                   </a>
                 </div>
               </CardContent>
             </Card>
-            
+
             <Card className="border-none shadow-md hover:shadow-lg transition-all">
               <CardContent className="p-6 flex items-start space-x-4">
                 <Phone className="h-6 w-6 text-portfolio-blue mt-1" />
@@ -40,14 +40,14 @@ const ContactSection: React.FC = () => {
                 </div>
               </CardContent>
             </Card>
-            
+
             <Card className="border-none shadow-md hover:shadow-lg transition-all">
               <CardContent className="p-6 flex items-start space-x-4">
                 <MapPin className="h-6 w-6 text-portfolio-blue mt-1" />
                 <div>
                   <h3 className="font-medium text-portfolio-navy">Location</h3>
                   <p className="text-portfolio-gray">
-                    5282 Bellefontaine Rd, Huber Heights, OH 45424, USA
+                    Ohio, United States
                   </p>
                 </div>
               </CardContent>
