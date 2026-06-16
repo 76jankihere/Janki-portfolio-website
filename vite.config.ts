@@ -6,10 +6,10 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-    base: '/Janki-portfolio-website/', 
+    base: mode === 'production' ? '/Janki-portfolio-website/' : '/',
     server: {
     host: "::",
-    port: 8080, 
+    port: 8080,
     },
   plugins: [
     react(),
